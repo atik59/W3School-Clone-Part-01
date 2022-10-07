@@ -1,0 +1,499 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(70, 63, 63);
+}
+
+
+.manu{
+    max-width: 100%;
+    height: auto;
+    background-color: #FFFFFF;
+    font-size: 20px;
+    overflow: hidden;
+    /* font-weight: 50px; */
+}
+
+.manuleft{
+    width: 45%;
+    padding: 10px 30px;
+    float: left;
+}
+
+.manuleft img{
+    float: left;
+    margin: 0px 10px;
+}
+.manuleft ul li{    
+    float: left;
+    overflow: hidden;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.manuleft ul li:hover{    
+    background-color: #08b877;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.manuimg{
+    max-width: 45px;
+    max-height: 45px;
+}
+
+.manuright{
+    max-width: 55%;
+    overflow: hidden;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.manuright ul li{
+    margin-left: 10px;
+    float: left;
+    overflow: hidden;
+    padding: 10px 25px;
+}
+
+.manuicon{
+    display: inline-block;
+    margin: 13px 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.pro{
+    background-color: #000;
+    border-radius: 20px;
+    color: #FFFFFF;
+}
+
+.pro:hover{
+    cursor: pointer;
+    background-color: rgb(121, 119, 119);
+}
+
+.getc{
+    background-color: #FFB3BB;
+    border-radius: 20px;
+    color: #000;
+}
+
+.getc:hover{
+    cursor: pointer;
+    background-color: #ff7d8a;
+}
+
+
+.freeweb{
+    background-color: #FFF080;
+    border-radius: 20px;
+    color: #000;
+}
+
+.freeweb:hover{
+    cursor: pointer;
+    background-color: #ffe629;
+}
+
+.logi{
+    background-color: #08b877;
+    border-radius: 20px;
+    color: #FFFFFF;
+}
+
+.logi:hover{
+    cursor: pointer;
+    background-color: #099b65;
+}
+
+
+/* -----------topmain---------- */
+
+
+.topmain{
+    max-width: 100%;
+    height: 80vh;
+    background-color: #282A35;
+    position: relative;
+}
+.subtopmain{
+    width: 54%;
+    height: auto;
+    /* background-color: #282A35; */
+    position: absolute;
+    margin: 5% 25%;
+
+}
+
+
+.subtopmain h1, h3{
+    font-size: 60px;
+    padding: 10px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.subtopmain h3{
+    font-size: 23px;
+    color: #FFC0BE;
+}
+
+
+.subtopmain div{
+    margin: 15px;
+    margin-left: 50px;
+}
+
+.subtopmain div input{
+    display: inline-block;
+    padding: 20px;
+    width: 70%;
+    height: 50px;
+    border-radius: 20px 0px 0px 20px;
+    border: none;
+}
+
+.subtopmain div input::placeholder{
+    font-size: 15px;
+}
+
+.subtopmain div input:focus{
+    outline: none;
+    font-size: 15px;
+    margin: 0;
+}
+
+.subtopmain div button{
+    display: inline-block;
+    width: 20%;
+    height: 50px;
+    border-radius: 0px 20px 20px 0px;
+    border: none;
+    margin-left: 0;
+    background-color: #059862;
+    position: relative;
+    top: -5px;
+    left: -4px;
+}
+
+
+.subtopmain div button:hover{
+    cursor: pointer;
+    background-color: #046843;
+}
+
+
+.subtopmain div button img{
+    display: inline-block;
+    width: 30px;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    
+}
+
+
+.subtopmain a{
+    display: block;
+    font-size: 25px;
+    padding: 10px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.subtopmain a:hover{
+    color: #08b877;
+
+}
+
+/* ----------HTML-------- */
+
+.HTML{
+    max-width: 100%;
+    height: 85vh;
+    background-color: #D9EEE1!important;;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.htmlleft{
+    width: 40%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.htmlleft h1{
+    font-size: 80px;
+    margin-bottom: 10px;  
+}
+
+.htmlleft p{
+    font-size: 20px;
+    margin: 10px;
+}
+
+.htmlleft a{
+    width: 40%;
+    height: 50px;
+    display: block;
+    border-radius: 20px;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.lh{
+    background-color: #04AA6D;
+    color: #FFFFFF;
+
+}
+
+.lh:hover{
+    cursor: pointer;
+    background-color: #046843;
+}
+
+.vd{
+    background-color: #fff49d;
+    color: #000;
+
+}
+.vd:hover{
+    cursor: pointer;
+    background-color: #ffeb52;
+}
+
+
+.hre{
+    background-color: #282A35;
+    color: #FFFFFF;
+
+}
+.hre:hover{
+    cursor: pointer;
+    background-color: #000000;
+}
+
+
+.gc{
+    background-color: #f3b0b8!important;
+    color: #000;
+
+}
+.gc:hover{
+    cursor: pointer;
+    background-color: #d66f7d!important;
+}
+
+
+
+.htmlrigth{
+    width: 40%;
+    height: 70vh;
+    background-color: #E7E9EB;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);;
+    padding: 30px;
+}
+
+.subhtmlrigth{
+    width: 100%;
+    height: 45vh;
+    background-color: #FFFFFF;
+    border-left: 5px solid #059862;
+    margin: 20px 0px;
+}
+
+.htmlrigth h1{
+    font-size: 23px;
+
+}
+
+.htmlrigth button{
+    width: 40%;
+    height: 45px;
+    background-color: #059862;
+    border: none;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+pre{
+    padding: 20px;
+    padding-left: 0%;
+    font-size: 18px;
+}
+
+.htmlrigth button:hover{
+    cursor: pointer;
+    background-color: #046843;
+}
+
+
+/* CSS */
+
+.CSS{
+    background-color: #FFF4A3!important;
+}
+
+.JavaScript{
+    background-color: #282A35!important;
+    color: #FFFFFF;
+}
+
+.JavaScript .htmlrigth h1{
+    color: #000;
+}
+
+.Python{
+    background-color: #F3ECEA!important;
+}
+
+
+.SQL{
+    background-color: #96D4D4!important;
+}
+
+
+/* ----NEXT PART 02------ */
+
+.Nextpart-02{
+    width: 100%;
+    height: 50vh;
+    background-color: #282A35;
+    color: #FFFFFF;
+    font-size: 30px;
+    padding: 50px;
+}
+
+
+
+@media screen and (max-width: 800px){
+    .manuright ul li{
+        margin: 10px;
+        width: 90%;
+        font-size: 90%;
+    }
+    
+/* -----------topmain---------- */
+
+.topmain{
+    max-width: 100%;
+    height: 40vh;
+}
+.subtopmain{
+    width: 100%;
+    margin: 50px 0px;
+}
+
+.subtopmain h1, h3{
+    font-size: 40px;
+}
+.subtopmain h3{
+    font-size: 20px;
+}
+.subtopmain div input{
+    width: 70%;
+    height: 30px;
+}
+
+.subtopmain div button{
+    width: 20%;
+    height: 40px;
+}
+.subtopmain div button:hover{
+    cursor: pointer;
+    background-color: #046843;
+}
+.subtopmain div button img{
+    width: 25px;
+    left: 25%;
+}
+.subtopmain a{
+    font-size: 15px;
+}
+    /*----HTML-----*/
+    
+.HTML{
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+
+.htmlleft{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+
+.htmlleft h1{
+    font-size: 50px;  
+}
+
+.htmlleft p{
+    font-size: 15px;
+}
+
+.htmlleft a{
+    width: 60%;
+    font-size: 15px;
+}
+
+
+.htmlrigth{
+    width: 95%;
+    height: auto;
+    padding: 10px;
+}
+
+.subhtmlrigth{
+    width: 100%;
+    height: 30vh;
+}
+
+.htmlrigth h1{
+    font-size: 20px;
+
+}
+
+.htmlrigth button{
+    width: 50%;
+    height: auto;
+    padding: 15px;
+    font-size: 15px;
+}
+
+pre{
+    padding: 0;
+    font-size: 15px;
+}
+
+.Nextpart-02{
+    width: 100%;
+    height: 50vh;
+    font-size: 10px;
+}
+
+}
+
